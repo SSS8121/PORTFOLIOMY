@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    height: 470vh;
+    background-image: url(https://t4.ftcdn.net/jpg/02/10/45/95/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: rgb(6, 120, 155);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    margin: auto;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    color: white;
+    margin: 10px;
+    padding-left: 60px;
+}
+nav .menu{
+    color: white;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    padding-right: 30px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+
+}
+#banner{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 5px;
+}
+.badge{
+    font-size: 40px;
+    margin-top: 20px;
+    color: blue;
+}
+.description{
+ font-size: 1rem;
+  letter-spacing: 2px;
+  color: black;
+  margin: 15px;
+}
+.buttons{
+    margin: 50px;
+}
+.buttons button{
+    background-color: skyblue;
+    padding: 20px 50px ;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-right: 100px;
+}
+.buttons>button:nth-child(2){
+    background-color: white;
+    color: black;
+    border: 2px solid skyblue;
+}
+.right img{
+    height: 450px;
+    width: 450px;
+    margin-top: 120px;
+    border-radius: 50%;
+}
+hr{
+    margin: 40px;
+    border: 1.5px solid rgb(135, 177, 235);
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+}
+span{
+    color: aqua;
+}
+.sai{
+    display: flex;
+    gap: 50px;
+}
+.sai img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 630px;
+    margin-top: 60px;
+
+}
+.aboutme{
+  font-size: 40px;
+  margin-top:60px ;
+}
+.v{
+    text-align: center;
+}
+.details{
+    display: flex;
+    border: 2px solid black;
+    height: 220px;
+    width: fit-content;
+    border-radius: 20px;
+    gap: 80px;
+    margin: 40px;
+    padding: 30px;
+}
+.education{
+    font-size: 30px;
+}
+
+.skills{
+    text-align: center;
+    margin-top: 50px;
+}
+.myall{
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    height: 500px;
+    width: 800px;
+   gap: 200px;
+}
+.myskills{
+ font-size: 30px;
+ border: 2px solid skyblue;
+ border-radius: 20px;
+ height: 370px;
+}
+.myskills>h4{
+    margin: 30px;
+}
+.strengths{
+    font-size: 30px;
+    border: 2px solid skyblue;
+    border-radius: 20px;
+    height: 400px;
+
+}
+.strengths>h4{
+    margin: 30px;
+ 
+}
+#projects>h1{
+    margin-top: 30px;
+}
+.myprojects{
+    text-align: center;
+}
+.allprojects{
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;
+    
+}
+.project img{
+    height: 500px;
+    width: 400px;
+}
+.lastone{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 40vw;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 70px;
+}
+.lastone>button{
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 30px;
+    margin: 100px 0px;
+    text-align: center;
+}
